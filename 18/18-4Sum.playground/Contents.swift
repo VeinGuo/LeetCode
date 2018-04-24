@@ -36,7 +36,7 @@ import UIKit
 class Solution {
     func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
         guard nums.count > 3 else { return [] }
-        if nums.count == 3, nums[0] + nums[1] + nums[2] + nums[3] == 0 {
+        if nums.count == 4, nums[0] + nums[1] + nums[2] + nums[3] == 0 {
             return [nums]
         }
         var result = [[Int]]()
